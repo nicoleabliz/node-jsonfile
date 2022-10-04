@@ -1,0 +1,5 @@
+const libreria = require("./");
+
+libreria.writex("./nicole.json", { nicole: false });
+
+console.log(libreria.writex("./nicole.json"));
